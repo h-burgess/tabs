@@ -1,0 +1,82 @@
+/* Breakpoints and Touch
+--------------------------------------------*/
+/* Colours
+--------------------------------------------*/
+/* Mixins end
+--------------------------------------------*/
+/* line 19, ../sass/styles.scss */
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* line 24, ../sass/styles.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  -moz-appearance: none;
+}
+
+/* line 29, ../sass/styles.scss */
+select::-ms-expand {
+  display: none;
+}
+
+/*  TYPOGRAPHY
+--------------------------------------------*/
+/* line 36, ../sass/styles.scss */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #323232;
+  overflow: hidden;
+  overflow-y: auto;
+  width: 100%;
+  background: #fff;
+  padding-top: 2em;
+}
+
+/* line 45, ../sass/styles.scss */
+p {
+  font-size: 20px;
+  margin: 0 0 1em 0;
+}
+
+/*  TYPOGRAPHY END
+--------------------------------------------*/
+/* line 53, ../sass/styles.scss */
+.tab-links {
+  text-align: center;
+}
+/* line 55, ../sass/styles.scss */
+.tab-links p {
+  color: #323232;
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0;
+  padding: 0.5em 1.2em;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  position: relative;
+  font-size: 18px;
+  background: #D8D8D8;
+  margin: 0 0.5em;
+  border-radius: 3px;
+}
+/* line 69, ../sass/styles.scss */
+.tab-links p.current {
+  color: #fff;
+  background: #323232;
+}
+
+/* line 76, ../sass/styles.scss */
+.tab-section .tab-content {
+  display: none;
+}
+/* line 78, ../sass/styles.scss */
+.tab-section .tab-content.current {
+  display: block;
+  margin-top: 2em;
+  text-align: center;
+}
